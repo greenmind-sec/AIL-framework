@@ -22,7 +22,7 @@ Features
 * Extracting and validating potential leak of credit cards numbers, credentials, ...
 * Extracting and validating email addresses leaked including DNS MX validation
 * Module for extracting Tor .onion addresses (to be further processed for analysis)
-* Keep tracks of duplicates
+* Keep tracks of duplicates (and diffing between each duplicate found)
 * Extracting and validating potential hostnames (e.g. to feed Passive DNS systems)
 * A full-text indexer module to index unstructured information
 * Statistics on modules and web
@@ -159,10 +159,10 @@ License
 
 ```
     Copyright (C) 2014 Jules Debra
-    Copyright (C) 2014-2017 CIRCL - Computer Incident Response Center Luxembourg (c/o smile, security made in Lëtzebuerg, Groupement d'Intérêt Economique)
-    Copyright (c) 2014-2017 Raphaël Vinot
-    Copyright (c) 2014-2017 Alexandre Dulaunoy
-    Copyright (c) 2016-2017 Sami Mokaddem
+    Copyright (C) 2014-2018 CIRCL - Computer Incident Response Center Luxembourg (c/o smile, security made in Lëtzebuerg, Groupement d'Intérêt Economique)
+    Copyright (c) 2014-2018 Raphaël Vinot
+    Copyright (c) 2014-2018 Alexandre Dulaunoy
+    Copyright (c) 2016-2018 Sami Mokaddem
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published by
